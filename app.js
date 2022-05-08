@@ -1,0 +1,1 @@
+function Play(x) { x.play(); }

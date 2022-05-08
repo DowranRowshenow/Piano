@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Piano</title>
+        <meta name="title" content="Piano"/>
+        <meta name="description" content="Piano Keyboard"/>
+        <meta name="viewport" content="width=device-width, initial-scale=Piano1"/>
+        <link rel="stylesheet" href="style.css"/>
+        <script src="app.js"></script>  
+    </head>
+    <body>
+        <audio id="a0"><source src="assets/A0.mp3" type="audio/mpeg"></audio>
+        <audio id="a1"><source src="assets/A1.mp3" type="audio/mpeg"></audio>
+        <audio id="a2"><source src="assets/A2.mp3" type="audio/mpeg"></audio>
+        <audio id="a3"><source src="assets/A3.mp3" type="audio/mpeg"></audio>
+        <audio id="a4"><source src="assets/A4.mp3" type="audio/mpeg"></audio>
+        <audio id="a5"><source src="assets/A5.mp3" type="audio/mpeg"></audio>
+        <audio id="a6"><source src="assets/A6.mp3" type="audio/mpeg"></audio>
+        <audio id="a7"><source src="assets/A7.mp3" type="audio/mpeg"></audio>
+        <audio id="ab1"><source src="assets/Ab1.mp3" type="audio/mpeg"></audio>
+        <audio id="ab2"><source src="assets/Ab2.mp3" type="audio/mpeg"></audio>
+        <audio id="ab3"><source src="assets/Ab3.mp3" type="audio/mpeg"></audio>
+        <audio id="ab4"><source src="assets/Ab4.mp3" type="audio/mpeg"></audio>
+        <audio id="ab5"><source src="assets/Ab5.mp3" type="audio/mpeg"></audio>
+        <audio id="ab6"><source src="assets/Ab6.mp3" type="audio/mpeg"></audio>
+        <audio id="ab7"><source src="assets/Ab7.mp3" type="audio/mpeg"></audio>
+
+        <main>
+            <div class="up">
+                <div class="b1" onclick="Play(ab1)"></div>
+                <div class="b2" onclick="Play(ab2)"></div>
+                <!-- <div class="b3" onclick="Play(ab3)"></div> -->
+                <div class="b4" onclick="Play(ab4)"></div>
+                <div class="b5" onclick="Play(ab5)"></div>
+                <div class="b6" onclick="Play(ab6)"></div>
+                <!-- <div class="b7" onclick="Play(ab7)"></div> -->
+            </div>
+            <div class="down">
+                <div class="a" onclick="Play(a0)"></div>
+                <div class="a" onclick="Play(a1)"></div>
+                <div class="a" onclick="Play(a2)"></div>
+                <div class="a" onclick="Play(a3)"></div>
+                <div class="a" onclick="Play(a4)"></div>
+                <div class="a" onclick="Play(a5)"></div>
+                <div class="a" onclick="Play(a6)"></div>
+                <!-- <div class="a" onclick="Play(a7)"></div> -->
+            </div>
+        </main>     
+        
+        <script> function Play(x) { x.play(); } </script>
+    </body>
+</html>
