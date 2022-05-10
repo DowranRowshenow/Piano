@@ -31,7 +31,7 @@ main
 }
 .up *:hover
 {
-    background-color: #aaa;
+    background-color: rgb(100, 100, 100);
 }
 .down
 {
@@ -39,7 +39,7 @@ main
 }
 .down *:hover
 {
-    background-color: #aaa;
+    background-color: rgb(200, 200, 200);
 }
 .a
 {
