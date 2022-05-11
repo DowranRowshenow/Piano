@@ -31,6 +31,7 @@ main
 }
 .up *:hover
 {
+    cursor: pointer;
     background-color: rgb(100, 100, 100);
 }
 .down
@@ -39,6 +40,7 @@ main
 }
 .down *:hover
 {
+    cursor: pointer;
     background-color: rgb(200, 200, 200);
 }
 .a
